@@ -1,0 +1,28 @@
+*,
+*::after,
+*::before{
+    box-sizing: border-box;
+}
+
+body{
+    margin: 0;
+    padding: 0;
+}
+
+
+.nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.image{
+    width: 3rem;
+}
+.nav-items{
+    list-style: none;
+    display: flex;
+}
+
+.nav-items > li {
+    padding: 1rem;
+}
