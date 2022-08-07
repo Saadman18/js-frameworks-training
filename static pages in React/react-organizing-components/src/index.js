@@ -4,7 +4,7 @@ import reportWebVitals from './reportWebVitals';
 import Header from './Header';
 import MainContent from './MainContent';
 import Footer from './Footer';
-import styles from './styles.css';  
+import './styles.css';  
 
 function Main(){
   return(
