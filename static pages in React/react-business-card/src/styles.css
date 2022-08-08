@@ -1,0 +1,111 @@
+:root{
+    font-size: 10px;
+    font-family: 'Inter', sans-serif;
+}
+
+*,
+*::after,
+*::before{
+    box-sizing: border-box;
+}
+
+body{
+    margin: 0;
+    padding: 0;
+    background-color: hsla(227, 11%, 15%, 1);
+
+}
+
+.business-card{
+    position: absolute;
+    width: 40%;
+    max-width: 317px;
+    left: 65px;
+    top: 53px;
+    background-color: hsla(231, 12%, 12%, 1);
+    border-radius: 10px;
+    overflow: hidden;
+}
+
+.header-photo{
+    width: 100%;
+    object-fit: contain;   
+}
+
+.name{
+    font-size: 2rem;
+    text-align: center;
+    margin-bottom: 0;
+}
+.title{
+    font-size: 1.2rem;
+    text-align: center;
+    margin-top: 0;
+}
+.portfolio-link{
+    text-align: center;
+}
+
+.white{
+    color: white;
+}
+
+.accent{
+    color:hsla(25, 79%, 78%, 1);
+
+}
+
+a{
+    text-decoration: none;
+}
+
+.btns{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 1rem;
+}
+
+.btn-1{
+    background-color: hsla(216, 12%, 84%, 1);
+    color: black;
+    padding: 0.9rem 2.5rem 0.9rem 2.5rem;
+    border-radius: 0.6rem;
+}
+
+.btn-2{
+    background-color: hsla(212, 72%, 60%, 1);
+    color: white;
+    padding: 0.9rem 2rem 0.9rem 2rem;
+    border-radius: 0.6rem;
+    
+}
+
+section{
+    padding: 0 3rem 3rem 3rem;
+}
+
+.section-header{
+    font-size: 1.6rem;
+    line-height: 150%;
+    margin-bottom: 0;
+}
+
+.footer{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 1em;
+    width: 100%;
+    background-color:hsla(231, 7%, 9%, 1);
+    color: hsla(254, 6%, 58%, 1);
+    font-size: 2.5rem;
+    padding: 1rem;
+
+}
+
+@media(max-width:400px){
+    :root{
+        font-size: 5px;
+    }
+}
