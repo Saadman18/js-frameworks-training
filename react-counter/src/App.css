@@ -1,0 +1,13 @@
+*,
+*::after,
+*::before{
+  box-sizing: border-box;
+}
+
+body{
+  background-color: rgb(1, 14, 27);
+}
+
+p{
+  color: white;
+}
