@@ -1,0 +1,26 @@
+{
+  "name": "express-js-setup",
+  "version": "1.0.0",
+  "description": "Setting up Express",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/Saadman18/react-training.git"
+  },
+  "keywords": [
+    "Express",
+    "Js"
+  ],
+  "author": "Saadman Sakib",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Saadman18/react-training/issues"
+  },
+  "homepage": "https://github.com/Saadman18/react-training#readme",
+  "dependencies": {
+    "express": "^4.18.1"
+  }
+}
