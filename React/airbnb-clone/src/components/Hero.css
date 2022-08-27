@@ -1,0 +1,31 @@
+*{
+    box-sizing: border-box;
+}
+
+body{
+    margin: 0;
+    font-family: 'Poppins', sans-serif;
+}
+
+.hero-container{
+    display: flex;
+    flex-direction: column;
+    width: 100vw;
+    padding: 5rem;
+}
+
+.hero-grid{
+    width: 100%;
+    align-self: center;
+}
+
+.hero-title{
+    margin-bottom: 1.6rem;
+    font-size: 4.6rem;
+}
+
+.hero-details{
+    margin-top: 0;
+    font-size: 2.6rem;
+    line-height: 3rem;
+}

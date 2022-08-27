@@ -1,0 +1,53 @@
+*{
+    box-sizing: border-box;
+}
+
+body{
+    margin: 0;
+}
+
+.card{
+    width: 17vw;
+    padding: 1rem;
+}
+
+.card-details{
+    padding: 0 0 1rem 1rem;
+}
+
+.card-img{
+    width: 100%;
+    border-radius: 1.5rem;
+}
+
+.rating-flex{
+    display: flex;
+    margin: 0;
+}
+
+.star-logo{
+    width: 1.5rem;
+    object-fit: contain;
+    margin: 0rem 0.3rem;
+}
+
+.rating{
+    font-size: 1.5rem;
+}
+
+.text-light{
+    font-weight: 100;
+    color: rgb(124, 124, 124);
+}
+
+.description{
+    font-size: 1.5rem;
+    margin-top: 0;
+    margin-bottom: 0;
+}
+
+.price{
+    font-size: 1.5rem;
+    font-weight: 600;
+    margin-top: 0;
+}

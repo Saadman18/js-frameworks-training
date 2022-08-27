@@ -31,5 +31,6 @@ img{
 }
 
 .name{
+    color: sienna;
     text-transform: uppercase;
 }
