@@ -1,4 +1,4 @@
-## Learning resources
+## Resources :books:
 ### CSS 
 - [Learn CSS by Google](https://web.dev/learn/css/)
 ### Bootstrap
