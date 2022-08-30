@@ -1,6 +1,7 @@
 ## Resources :books:
 
-### CSS 
+
+### CSS
 - [Learn CSS by Google](https://web.dev/learn/css/)
 ### Bootstrap
 - [Installing Bootstrap + TypeScript + React with Vite](https://frontendshape.com/post/install-setup-vite-react-typescript-bootstrap-5)
