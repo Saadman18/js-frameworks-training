@@ -3,8 +3,8 @@
 
 #### CSS
 - [Learn CSS by Google](https://web.dev/learn/css/)
-#### Bootstrap
-- [Installing Bootstrap + TypeScript + React with Vite](https://frontendshape.com/post/install-setup-vite-react-typescript-bootstrap-5)
+#### Tailwind :feather:
+- [Docs](https://v2.tailwindcss.com/docs)
 #### JavaScript
 - [JavaScript promises](https://web.dev/promises/?gclid=CjwKCAjwx7GYBhB7EiwA0d8oe6VfdUX0COjtLYhg2qtcOwkwXWmtZ6voJnl_uAdHgkYjZMf1F4sSbxoC9nYQAvD_BwE)
 #### React JS
