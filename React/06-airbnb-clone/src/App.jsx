@@ -7,17 +7,10 @@ import data from './data';
 function App() {
 
   const cardData = data.map(item => {
-    console.log(item.id)
     return (
       <Cards
         key={item.id}
-        open={item.openSpots}
-        image= {item.coverImg}
-        rating={item.stats.rating}
-        numberOfRatings={item.stats.reviewCount}
-        location={item.location}
-        title={item.title}
-        price={item.price}
+        item={item}
       />
     )
   })
