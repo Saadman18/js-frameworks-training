@@ -7,7 +7,8 @@ body{
 }
 
 .card{
-    width: 17vw;
+    position: relative;
+    min-width: 17vw;
     padding: 1rem;
 }
 
@@ -44,10 +45,24 @@ body{
     font-size: 1.5rem;
     margin-top: 0;
     margin-bottom: 0;
+    overflow: hidden;
+    text-overflow: ellipsis;
 }
 
 .price{
     font-size: 1.5rem;
     font-weight: 600;
     margin-top: 0;
+}
+
+.badge{
+    font-size: 1.2rem;
+    font-weight: 600;
+    top: 1.8rem;
+    left: 1.8rem;
+    position: absolute;
+    border-radius: 0.5rem;
+    background: rgb(255,244,255);
+    color: rgb(27,27,27);
+    padding: 0.5rem;
 }

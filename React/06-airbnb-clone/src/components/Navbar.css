@@ -13,8 +13,9 @@ body{
 .cards-layout{
     margin-left: 5rem;
     display: flex;
-    flex-wrap: wrap;
-    align-items: center;
+    flex-wrap: nowrap;
+    overflow-x: auto;
+    flex-shrink: 0;
 }
 
 .navbar{

@@ -2,42 +2,35 @@ import React from "react";
 import Cards from "./components/Cards";
 import Hero from "./components/Hero";
 import Navbar from "./components/Navbar";
+import data from './data'; 
 
 function App() {
-  
+
+  const cardData = data.map(item => {
+    console.log(item.id)
+    return (
+      <Cards
+        key={item.id}
+        open={item.openSpots}
+        image= {item.coverImg}
+        rating={item.stats.rating}
+        numberOfRatings={item.stats.reviewCount}
+        location={item.location}
+        title={item.title}
+        price={item.price}
+      />
+    )
+  })
+
   return (
     <div className="container">
       <Navbar/>
       <Hero />
       <div className="cards-layout">
-        <Cards
-          image="katie-zaferes.png"
-          rating="5.0"
-          numberOfRatings={6}
-          location="USA"
-          description="Life lessons with Katie Zaferes"
-          price={125}
-        />
-        <Cards
-          image="katie-zaferes.png"
-          rating="5.0"
-          numberOfRatings={30}
-          location="USA"
-          description="Learn wedding photography"
-          price={125}
-        />
-        <Cards
-          image="mountain-bike.png"
-          rating="5.0"
-          numberOfRatings={2}
-          location="USA"
-          description="Group Mountain Biking"
-          price={25}
-        />
+        {cardData}
       </div>
     </div>
   )
 }
 
 export default App
-
